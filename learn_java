@@ -1,0 +1,23 @@
+package task;
+
+public class praveen_task {
+
+	public static void main(String[] args) {
+		int a=12345;
+		System.out.println(a/100%10);
+//		expand number
+		  int b=1234;
+		  int c=b%10;
+		  int d=(b/10)%10;
+		  int e=(b/100)%10;
+		  int f=(b/1000);
+		System.out.println(f*1000+" + "+e*100+" + "+d*10+" + "+c +" = "+b);
+		
+//		swapped
+		int g=10;
+		int h=20;
+		System.out.println(g+h);
+		
+	}
+
+}
