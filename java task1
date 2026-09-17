@@ -1,0 +1,77 @@
+package praveen;
+import java.util.Scanner;
+
+public class First {
+
+	public static void main(String[] args) {
+//	1).	find last digit number
+		int a=1234;
+		System.out.println(a%10);
+		
+//	2).	remove last digit number
+		System.out.println(a/10);
+
+//	3).	find last 2 digit 
+		System.out.println(a%100);
+		
+//	4).find middle number and square:
+		int b=54623;
+		int c=(b%1000/100);
+		System.out.println(c);
+		System.out.println(c*c);
+		
+//	5). swap two number using bitwise operator.
+		a=10;
+		b=20;
+		a=a^b;
+		b=a^b;
+		a=a^b;
+		System.out.println("a="+a);
+		System.out.println("b="+b);
+		
+//	 6).find BMI
+		Scanner s=new Scanner(System.in);
+		System.out.println("Enter the weight:");
+		int weight=s.nextInt();
+		System.out.println("Enter the hight:");
+		int hight=s.nextInt();
+		int m=weight/(hight/100)^2;
+		System.out.println("BMI="+m);
+
+//	7).expand number
+		
+		int x=1234;
+		int y=x%10;
+		int g=(x%100/10);
+		int t=(x/100%10);
+		int k=x/10;
+		System.out.println(k*1000+" +"+t*100+" + "+g*10+" + "+y+ "=1234");
+		
+//	8).	cylinder
+		int a=10;
+		int b=20;
+		System.out.println(3.15*a*a*b);
+		
+//	9).	volume of cuboid
+		
+		int c=20;
+		int d=30;
+		int e=40;
+		System.out.println(c*d*e);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}
