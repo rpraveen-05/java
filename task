@@ -1,0 +1,54 @@
+package praveen;
+import java.util.Scanner;
+
+public class learn {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int a=sc.nextInt();
+		int b=sc.nextInt();
+		if(a==b)
+		{
+			System.out.println("its square");
+		}
+		else
+		{
+			System.out.println("its rectangle");
+		}
+
+		
+	int c=sc.nextInt();
+	int d=sc.nextInt();
+	int e=c-d;
+	if(e==0)
+	{
+	
+			System.out.println("yes,value is 0");
+	}
+	else
+	{
+		System.out.println("sorry,its wrong value"+e);
+	}
+	
+	
+	
+	
+	int t=sc.nextInt();
+	int u=sc.nextInt();
+	if(t<u) {
+		System.out.println("it is bigest number"+u);
+	}
+	else if(t==u) {
+		System.out.println("value or same");
+		
+	}
+	else
+	{
+		System.out.println("it is bigest value"+t);
+	}
+	
+	
+	
+	}
+
+}
