@@ -1,0 +1,88 @@
+package praveen;
+
+public class funcation {
+//	static void series() {
+//		int a=2;
+//		for(int b=1;b<=10;b++) {
+//			
+//			System.out.println((b*a));
+//		}
+//	}
+//	static void series2() {
+//		int c=10;
+//		for(int d=10;d>=0;d--) {
+//			System.out.println((d*c)+",");
+//		}
+//	}
+	
+//	static int square (int a) {
+//		int i=a*a;
+//		return i;	
+//	}
+	
+//	static int cube (int b) {
+//		int c=b*b*b;
+//		return c;
+//	}
+	
+	
+//	static void digits(int a) {
+//		
+//		while(a>0) 
+//		{
+//			int c = a%10;
+//			a = a/10;
+//			System.out.print(c+" ");
+//		}
+//	}
+	
+	
+//		static void am(int a) {
+//			
+//			int x = a;
+//			int te = a;
+//			int co = 0;
+//			while(a>0) 
+//			{
+//				co++;
+//				a = a/10;
+//			}
+//			System.out.println(co);
+//		int r = 0;
+//		while (x>0) 
+//		{
+//			
+//			int c = x%10;
+//			r = (int)(r+Math.pow(c,co));
+//			x = x / 10;
+//		}
+//	}
+	
+//	
+
+	
+		static  count() {
+			for(int a=0;a>a;a++) {
+				
+				return a;
+			}
+		}
+	
+	
+	
+	
+	
+	public static void main(String[] args) {
+//		series();
+//		series2();
+		
+//		System.out.println(square(5));
+//		System.out.println(cube(2));
+		
+//		am(123);
+		
+//		digits(56);
+
+	}
+
+}
