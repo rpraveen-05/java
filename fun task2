@@ -1,0 +1,107 @@
+package praveen;
+import java.util.Scanner;
+
+
+public class fun {
+//	static int add(int a, int b) {
+//		
+//		int c =a+b;
+//		System.out.println(c);
+//		return c;
+//	}
+		
+//	
+//	static void price(int a) {
+//		
+//		int b=50001;
+//		int c=100001;
+//		int d=1500000;
+//		
+//		if(a<b){
+//			System.out.println("No discount");
+//		}
+//	
+//		else if (a>b && a<c){
+//			int v=a/10;
+//			System.out.println("10%:"+v);
+//		}
+//	
+//		else if (a>b && a<d){
+//			System.out.println(a/15+":15%");
+//		}
+//		
+//		else if(a>d) {
+//			System.out.println(a/20+":20%");
+//		}
+//		
+//		else {
+//			System.out.println("Thank you");
+//		}
+//		
+//	}
+	
+//		static int sq(int a){
+//			int b =a*a;
+//			System.out.println(b);
+//			return b;
+//		}
+//		
+//		static void cu(int c) {
+//			int d=c*c*c;
+//			System.out.println(d);
+//		}
+
+//	
+//		static void sum(int a,double b) {
+//			double c=a+b;
+//			System.out.println(c);
+//			
+//		}
+//	
+	
+//	static void cap(char a) {
+//		if(a>=65 && a<=90) {
+//			System.out.println("is cap");
+//		}
+//		else {
+//			System.out.println("is not");
+//		}
+//	}
+	
+	
+//	static void vowel(char a){
+//		if(a=='a' || a=='e' || a=='i' || a=='o'|| a=='u') {
+//			
+//			System.out.println("is vowel");
+//		}
+//		
+//		else {
+//			System.out.println("is not");
+//		}
+//	}
+//	
+	
+	
+	static
+
+	public static void main(String[] args){
+	
+//	add(10,20);
+////		System.out.println(add(10,20));
+//	add(20,30);
+		
+//	
+
+//		sq(10);
+//		cu(10);
+		
+//		sum(20,20.32);
+		
+//		cap('A');
+//	
+//		vowel('e');
+		
+		
+	}
+
+}
