@@ -1,0 +1,74 @@
+package praveen;
+import java.util.*;
+
+public class Project1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("=====Welcome praveen store=====");
+		System.out.println("1.Add product");
+		System.out.println("2.Viwe product");
+		System.out.println("3.Total stack value");
+		System.out.println("4.Eixt");
+		
+		String name=null;
+		int qu=0;
+		double pr =0;
+		double pr1=pr*qu;
+		
+		while(true) {
+		System.out.println("Enter your choice : ");
+		int choice=sc.nextInt();
+		
+		if(choice==1)
+		{
+			System.out.println("<-----Add product----->");
+			
+			System.out.println("Enter your product name : ");
+			name=sc.next();
+			
+			System.out.println("Enter your product quantity : ");
+			qu=sc.nextInt();
+			
+			System.out.println("Enter  product price : ");
+			pr=sc.nextDouble();
+			
+			System.out.println("Total product price : "+ pr1);
+			System.out.println();
+		}
+		
+		else if(choice==2)
+		{
+			System.out.println("<-----view product--->");
+			
+			System.out.println("our product : "+ name);
+			
+			System.out.println("our quantity : "+ qu);
+			
+			System.out.println("our quantity price : "+pr1);
+		}
+		
+		else if(choice ==3)
+		{
+			System.out.println("  Total stack value ");
+			System.out.println("Total stack value : " + pr1);
+			System.out.println();
+		}
+		
+		else if(choice==4)
+		{
+			System.out.println("=====Thank you visiting my store======");
+			break;
+		}
+		
+		else {
+			System.out.println("Invaild choice");
+		}
+	
+}
+
+	}
+
+}
