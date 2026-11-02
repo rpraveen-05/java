@@ -1,0 +1,111 @@
+package praveen;
+// class car
+//	{
+//	 	String brand = "BMW";
+//	 	int price =1097620;
+//	 	void cars(){
+//	 		System.out.println("I LIKE THIS BRAND "+ brand);
+//	 		System.out.println("I UNEXPATED PRICE THIS $"+ price);
+//	 	}
+//	}
+// 
+//	 class bike extends car
+//	 {
+//		 String name = "R15 V5";
+//		 int price = 250000;
+//		 
+//		 void bikes() {
+//			 System.out.println();
+//			 System.out.println("I ALREADY OWN THIS BIKE "+name);
+//			 System.out.println("I EXPATED PRICE THIS $"+price);
+//		 }
+//	 }
+//
+//	class ball{
+//		ball(){
+//				String name= "football";
+//				System.out.println("I LIKE VERY THIS  GAME "+name);	
+//		}
+//		void balls(){
+//				
+//		}
+//	}
+//	
+//	class lang
+//	{
+//		lang(String name)
+//		{
+//			System.out.println("HELLO "+name);
+//		}
+//		lang(int a)
+//		{
+//			System.out.println("WORLD OUT YEAR "+a);
+//		}
+//		lang(double a)
+//		{
+//			System.out.println("HIGEST VIEW IN WORLD "+a+"M");
+//		}
+//	}
+
+class note
+{
+//	note()
+//	{
+////		String name = "youva";
+//		System.out.println("I LIKE THIS NOTE1 ");
+//	}
+	
+	void no()
+	{
+		System.out.println("I LIKE THIS NOTE2 ");
+	}
+}
+class book extends note
+{
+//	book()
+//	{
+//		String name = "10th BOOK";
+//		System.out.println("I SEE THIS BOOK MY LIFE ONE TIME"+name);
+//	}
+	
+	void no()
+	{
+		System.out .println("I LIKE THIS NOTE3 ");
+		super.no();
+		
+	}
+}
+class paper extends book
+{
+	void no() {
+		System.out.println("I LIKE THIS paper ");
+		super.no();
+	}
+}
+public class demo {
+
+	public static void main(String[] args) {
+//		car c=new car();
+//		c.cars();
+//		bike b=new bike();
+////		b.cars();
+////		b.bikes();
+//		b.brand = "TATA";
+//		b.cars();	
+//		ball b=new ball();
+//		b.balls();
+//		new lang("PYTHON");
+//		new lang(12);
+//		new lang(22.0);
+		paper b=new paper();
+		b.no();
+		
+		
+		
+		
+		
+		
+
+	}
+
+}
