@@ -111,12 +111,43 @@ package praveen;
 //		}
 		
 
+			interface a
+			{
+				void bike();
+			}
+			
+			interface b extends a
+			{
+				void cars();
+			}
+			
+			interface c extends b
+			{
+				void bus();
+			}
+			class da implements b, c
+			{			
+				public void bus() {
+					System.out.println("MY FAV BUS");	
+				}
+				public void cars() {
+					System.out.println("MY FAV CAR TATA");
+				}
+				public void bike() {
+					System.out.println("my fav bike r15");
+				}
+				
+			}
 
 public class oops2 {
 	
 
 	public static void main(String[] args) {
-		
+
+		da d=new da();
+			d.bike();
+			d.bus();
+			d.cars();
 		
 		
 //		car c=new car();
