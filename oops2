@@ -1,0 +1,161 @@
+package praveen;
+//class java
+//{
+//	int a;
+//	int b;
+//	void fun(int a , int b)
+//	{
+//		this.a=a;	
+//		this.b=b;
+//	}
+//	
+//	void demo ()
+//	{
+//		System.out.println(a);
+//	}
+//	void bb() {
+//		System.out.println(b);
+//	}
+//}
+	
+//			abstract class bank
+//			{
+//				abstract void withdraw();
+//				void remblance()
+//				{
+//					System.out.println("remaning blance $100");
+//				}
+//			}
+//			
+//			class sbi extends bank
+//			{				
+//				void withdraw() {
+//						System.out.println("amount debited");
+//				}
+//				
+//			}
+
+
+//				interface bank
+//				{
+//					void withdraw();
+//					void credit();
+//				}
+//				class sbi implements bank
+//				{				
+//					public void withdraw() {
+//						
+//						System.out.println("amount withdraw");
+//					}
+//					
+//					public void credit() {
+//						System.out.println("amount credit");
+//					}
+//					
+//				}
+
+
+//			interface animal
+//			{
+//				void sound();
+//			}
+//			
+//			interface pet
+//			{
+//				void sleep();
+//			}
+//			class dog implements animal, pet
+//			{
+//				
+//				public void sleep() {
+//					System.out.println("zzz");
+//				}		
+//				public void sound() {
+//					System.out.println("www");
+//					
+//				}
+//				
+//			}
+
+
+//		interface my
+//		{
+//			void cars();
+//		}
+//		interface my2
+//		{
+//			void buss();
+//		}
+//
+//
+//		class car implements my, my2
+//		{
+//			String name = "BMW";
+//			String name2 = "VOLIVO";
+//			public void cars()
+//			{
+//				System.out.println("I LIKE CAR "+ name);
+//			}
+//			
+//			public void buss()
+//			{
+//				System.out.println("MY FAV BUS "+name2);
+//			}
+//			
+//			String name3 ="R15";
+//			
+//			void bikes()
+//			{
+//				System.out.println(name3);
+//			}
+//		}
+		
+
+
+public class oops2 {
+	
+
+	public static void main(String[] args) {
+		
+		
+		
+//		car c=new car();
+//		c.cars();
+//		c.bikes();
+//		c.buss();
+		
+//		dog d=new dog();
+//		d.sleep();
+//		d.sound();
+	
+//		sbi s=new sbi();
+//		s.withdraw();
+//		s.remblance();
+		
+		
+		
+//		bank s=new sbi();
+//		s.withdraw();
+//		s.credit();
+		
+		
+		
+		
+		
+		
+//		final int a=10;
+//		System.out.println(a);
+		
+//		java j=new java();
+//		j.fun(10,44);
+//		j.demo();
+//		j.bb();
+//		
+		
+	
+		
+		
+
+	}
+
+}
