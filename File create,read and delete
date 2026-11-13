@@ -1,0 +1,160 @@
+package task;
+class student
+{
+	private int a;
+	private String name;
+	public void seta(int a)
+	{
+		this.a=a;
+	}
+	public void setname(String name)
+	{
+		this.name=name;
+	}
+	public int geta()
+	{
+		return a;		
+	}
+	public String getname()
+	{
+		return name;
+	}
+}
+
+public class demo {
+
+	public static void main(String[] args) {
+		
+		student a=new student();
+		a.seta(12);
+		a.setname("heloo java");
+		System.out.println(a.geta());
+		System.out.println(a.getname());
+	}
+
+}
+	class student
+	{
+		int a;
+		 void fun()
+		{
+//			 
+			System.out.println(a=645);
+		}
+		 void fun1() {
+			 System.out.println(a);
+		 }
+		 
+	}
+
+public class demo {
+	
+		private void fun()
+		{
+			System.out.println("hello java");
+		}
+		
+
+	public static void main(String[] args) {
+			
+		demo a=  new demo ();
+		a.fun();
+		student a1=new student();
+		a1.fun();
+		a1.fun1();
+		
+	
+	}
+
+}
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+class student
+		{
+			
+			 
+		}
+		
+		public class demo {
+		
+			
+		
+		public static void main(String[] args) throws IOException 
+		{
+				
+		File f=new File("C:\\Users\\Livewire\\Desktop\\rr.txt");
+			if(f.createNewFile())
+			{
+			System.out.println("file created");
+		}
+			else
+			{
+				System.out.println("file alerady created");
+			}
+		
+			write and append a file
+			
+			FileWriter fw=new FileWriter(f);
+			fw.write("Indian football is governed by the All India Football Federation (AIFF) \n and features the national teams (the Blue Tigers and the Blue Tigresses) alongside domestic leagues led by the Indian Super League (ISL). Currently,\n the senior men's team is on tour in New Zealand, a developmental squad is competing in the SAFF Championship,\n and the 2026–27 domestic club seasons are underway.");
+			fw.append()
+			fw.flush();
+			System.out.println("writed");
+			
+			read file
+			
+			Scanner sc=new Scanner (f);
+			while (sc.hasNext())
+			{
+				System.out.println(sc.nextLine());
+			}
+			
+			
+			delete file
+	
+			File f1=new File("C:\\Users\\Livewire\\Desktop\\rr1.txt");
+			FileWriter fw1=new FileWriter(f1);
+			fw1.write("Indian football is governed by the All India Football Federation (AIFF) and features the national teams (the Blue Tigers and the Blue Tigresses) alongside domestic leagues led by the Indian Super League (ISL). Currently, the senior men's team is on tour in New Zealand, a developmental squad is competing in the SAFF Championship, and the 2026–27 domestic club seasons are underway.");
+			fw1.flush();
+			
+			if(f1.delete())
+			{
+				System.out.println("file deleted");
+			}
+			else
+			{
+				System.out.println("file already deleted");
+			}
+			
+			File f=new File("C:\\Users\\Livewire\\Desktop\\rr1.txt");
+			FileWriter fw=new FileWriter(f);
+			fw.write("Tamil Thalaivas is a professional kabaddi franchise based in Chennai,\n Tamil Nadu, competing in the Pro Kabaddi League (PKL). Founded in 2017 during the league's \nfifth-season expansion, the team is owned by Magnum Sports and plays \n its home matches at the Jawaharlal Nehru Indoor Stadium (SDAT Multi Purpose Indoor Stadium) in Chennai.");
+			fw.flush();
+			
+			Scanner sc=new Scanner(f);
+			while(sc.hasNext())
+			{
+				System.out.println(sc.nextLine());
+			}
+			
+			if(f.delete())
+			{
+				System.out.println("file deleted");
+			}
+			else
+			{
+				System.out.println("file already ");
+			}
+			
+			
+			
+			
+			
+		
+		}	
+		
+	}
+
